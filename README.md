@@ -6,15 +6,15 @@
 
 
 #### script for getting and cleaning data
-run_analisys.R
+- run_analisys.R
 
 
 #### library to run the script
-library(tidyverse)
+- library(tidyverse)
 
 
 #### command to run the script
-source("run_analysis.R")
+- source("run_analysis.R")
 
 
 #### source of analyzed data
