@@ -5,7 +5,7 @@
 ### *** DESCRIPTION OF FILE CONTENT ***
 
 
-### File:  human_activity_mean_std.csv  
+## File:  human_activity_mean_std.csv  
 ##### tidy data set with means and standard deviation for each observed activities:
 
 ##### Fields description:
@@ -14,7 +14,8 @@
 | volunteer_id        | number  | Id of volunteer activity |
 |                     |         | Range: 1:30 |
 | activity            | string  | Name of activity observable |
-|                     |         | Possible activitys:   1. walking |
+|                     |         | Possible activitys: |  
+|                     |         |                       1. walking |
 |                     |         |                       2. walking_upstairs |
 |                     |         |                       3. walking_downstairs |
 |                     |         |                       4. sitting |
@@ -26,7 +27,7 @@
 |                     |         | variable on the Feature Vector | 
 
 
-#### File:  human_activity_summarized.csv  
+## File:  human_activity_summarized.csv  
 ###### tidy data set with the average of each variable for each activity and each subject: 
 
 ##### Fields description:
@@ -44,8 +45,8 @@
 |                     |          |                           6. laying              |
 |  feature_vector     | string   | Evaluated feature vector                         |
 |  variable_estimated | string   | Measure variable applied to Feature Vector       |
-|  measured_mean      | number   | Average of value measured by applying the        |
-|                     |          | estimated variable on the Feature Vector         | 
+|  measured_mean      | number   | Average of value measured by applying the        
+                                   estimated variable on the Feature Vector         | 
 
 
 #### Additional information about data read files:
