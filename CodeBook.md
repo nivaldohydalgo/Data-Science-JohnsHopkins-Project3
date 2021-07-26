@@ -1,10 +1,12 @@
 ### COURSERA - DATA SCIENCE
 ### Course 03 - Getting and Cleaning Data
 #### Course Project - Author Nivaldo Hydalgo
-#### *** DESCRIPTION OF FILE CONTENT ***
 
-#### File:  human_activity_mean_std.csv  
-###### tidy data set with means and standard deviation for each observed activities:
+### *** DESCRIPTION OF FILE CONTENT ***
+
+
+### File:  human_activity_mean_std.csv  
+##### tidy data set with means and standard deviation for each observed activities:
 
 ##### Fields description:
 | NAME | TYPE | DESCRIPTION |
@@ -33,7 +35,8 @@
 | volunteer_id        | number   | Id of volunteer activity                         |
 |                     |          | Range: 1:30                                      |
 | activity            | string   | Name of activity observable                      |
-|                     |          |     Possible activitys:   1. walking             | 
+|                     |          |     Possible activitys:                          |
+|                     |          |                           1. walking             | 
 |                     |          |                           2. walking_upstairs    |
 |                     |          |                           3. walking_downstairs  | 
 |                     |          |                           4. sitting             |
@@ -45,7 +48,7 @@
 |                     |          | estimated variable on the Feature Vector         | 
 
 
-##### Additional information about data read files:
+#### Additional information about data read files:
 /data/features_info.txt
 /data/README.txt
 
