@@ -36,12 +36,12 @@ source("run_analysis.R")
 
 
 #### tidy data set with means and standard deviation for each observed activities:
-> human_activity_mean_std.csv
+- human_activity_mean_std.csv
 
 
 #### tidy data set with the average of each variable for each activity and each subject: 
-> human_activity_summarized.csv
-> human_activity_summarized.txt
+- human_activity_summarized.csv
+- human_activity_summarized.txt
 
 
 #### **Attention**  
