@@ -2,10 +2,12 @@
 ### Course 03 - Getting and Cleaning Data
 #### Course Project - Author Nivaldo Hydalgo
 
+
 ### *** DESCRIPTION OF FILE CONTENT ***
 
 
-## File:  human_activity_mean_std.csv  
+## File:
+> human_activity_mean_std.csv  
 ##### tidy data set with means and standard deviation for each observed activities:
 
 ##### Fields description:
@@ -19,7 +21,9 @@
 | measured_value      | number  | Value measured by applying the estimated variable on the Feature Vector | 
 
 
-## File:  human_activity_summarized.csv  
+## Files:  
+> human_activity_summarized.csv  
+> human_activity_summarized.txt
 ###### tidy data set with the average of each variable for each activity and each subject: 
 
 ##### Fields description:
@@ -33,6 +37,6 @@
 
 
 #### Additional information about data read files:
-/data/features_info.txt
-/data/README.txt
+- /data/features_info.txt
+- /data/README.txt
 

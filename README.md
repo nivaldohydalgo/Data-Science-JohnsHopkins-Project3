@@ -28,17 +28,20 @@ source("run_analysis.R")
 | ./data/test/subject_test.txt |
 | ./data/test/X_test.txt |
 | ./data/test/y_test.txt |
+## Original data obtained from:
+> https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 ### CLEAN FILES GENERATED FOR EVALUATION
 
 
 #### tidy data set with means and standard deviation for each observed activities:
-human_activity_mean_std.csv
+> human_activity_mean_std.csv
 
 
 #### tidy data set with the average of each variable for each activity and each subject: 
-human_activity_summarized.csv
+> human_activity_summarized.csv
+> human_activity_summarized.txt
 
 
 #### **Attention**  
@@ -46,6 +49,7 @@ All commands used to get and clean the files are described in the script file "r
 
 
 #### Save files on CSV  
-write_csv( human_activity_mean_std, "human_activity_mean_std.csv" )
-write_csv( human_activity_summarized, "human_activity_summarized.csv" )
+- write_csv( human_activity_mean_std, "human_activity_mean_std.csv" )
+- write_csv( human_activity_summarized, "human_activity_summarized.csv" )
+- write.table( human_activity_summarized, file = "human_activity_summarized.txt", row.name = FALSE)
 
